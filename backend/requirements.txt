@@ -1,0 +1,10 @@
+# Phase 0 검증 기준 최신 버전으로 업데이트 (2026-05-11)
+# OCR: LangChain 대신 Upstage information-extract API 직접 사용 (openai SDK)
+fastapi==0.136.1
+uvicorn[standard]==0.46.0
+python-multipart==0.0.28
+openai==2.36.0
+pillow==12.2.0
+pdf2image==1.17.0
+python-dotenv==1.2.2
+mangum==0.19.0

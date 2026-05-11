@@ -1,0 +1,35 @@
+# 환경 변수 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# 로컬 설정
+.mcp.json
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# 업로드 파일 (임시)
+backend/uploads/
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
